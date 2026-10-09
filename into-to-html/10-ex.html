@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .whole{
+                width: 500px;
+                height: 130px;
+                border: 1px;
+                display: flex;
+                align-items:center;
+                flex-direction:column;  
+                border: solid 1px;  
+                border-radius: 4px;           
+            }
+            .inner-whole{
+                width: 485px;
+                height: 110px;
+                display: flex;
+                align-items: center;
+                margin-top: 10px;
+                border-radius: 5px;
+                background-color: rgb(211, 197, 177);
+                box-shadow: 0px 2px 6px 0px solid gray;
+            }
+            .profile{
+                display: inline-block;
+            width: 100px;
+            margin-left: 4px;
+            vertical-align: top;
+            padding-top: 4px;
+            
+            padding-left: 6px;          
+            }
+            .profile-pic{
+                width: 90px;
+                border-radius: 50px;
+            }
+            .name-boxs{
+                width: 265px;
+                height: 100px;
+                display: inline-block;  
+                margin-left: 2px;
+               
+            }
+            .name,.cat,.pol{
+                width: 254px;
+                height: 30px;
+                 margin-top: -16px;
+                 padding-left: 4px;
+
+               
+            }
+            .olive{
+                font-family: Roboto, sans-serif;
+                padding-top: 3px;
+                font-weight: bold ;
+                font-size: 21px;
+            }
+            .the-cat{
+                 font-family: Roboto, sans-serif;
+                padding-top: 3px;
+                color: rgb(42, 50, 57);
+                font-size: 17px;
+            }
+            .popular{
+                 font-family: Roboto, sans-serif;
+                padding-top: 4px;
+                color: rgb(81, 87, 93);
+                font-size: 16px;
+            }
+            .button{
+                width: 100px;
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            .follow{
+                display: inline-block;          
+                width: 75px;
+                height: 29px;
+                color: aliceblue;
+                border: none;
+                border-radius: 5px;
+                font-weight: bold;
+                font-size: 16px;
+                background-color: rgb(77, 182, 239);
+            }
+        </style>
+        
+    </head>
+    <body>
+        <div class="whole">
+            <div class="inner-whole">
+                <div class="profile">
+                    <img  class="profile-pic" alt="solo-profile" src="room design.jpeg">
+                </div>
+                <div class="name-boxs">
+                  <div class="name">
+                    <p class="olive">Oliver</p>
+                  </div>
+                  <div class="cat">
+                    <p class="the-cat">the cat</p>
+                  </div>
+                  <div class="pol">
+                    <p class="popular">Popular</p>                  
+                  </div>
+                </div>
+                <div class="button">
+                    <button class="follow">Follow</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

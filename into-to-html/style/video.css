@@ -1,0 +1,66 @@
+        .below-header{
+            display: flex;
+        }
+        .right-side{
+          
+            flex: 1;
+            margin-left: 74px;
+        }
+        .thumbnail {
+            width: 100%;   
+            margin-top: 55px;
+            
+        }
+        .video-preview{
+           
+            min-width: 300px;
+        }
+        .video-grid {
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr;
+           column-gap: 16px;
+           row-gap: 40px;
+           padding: 20px;
+
+        }
+        .video-info-grid{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 50px 1fr;
+            
+        }
+        .chanel-pic{
+            width: 100%;
+            height: 50px;
+            background-color: white;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
+        .profile-pic{
+            width: 75%;
+            border-radius: 50px;
+        }        
+        .video-author{
+            font-family: Roboto, sans-serif;
+            font-size: 12px;
+            height: 12px;
+            margin-top: 17px;
+           
+            color: rgb(79, 78, 78);
+            background-color: white;
+            
+        }
+        .video-stas{
+             font-family:Roboto, sans-serif;
+            font-size: 12.5px;
+            margin-top: -8px;
+
+            background-color: white;
+            color: rgb(84, 83, 83);
+           
+        }
+        .thumbnail-row{
+            margin-bottom: 12px;
+
+        }

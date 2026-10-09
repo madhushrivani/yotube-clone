@@ -1,0 +1,46 @@
+ p{
+      font-family: Roboto;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+ .video-title{
+    font-size: 18px;
+    font-weight: bold;
+    width: 290px;
+    line-height: 23px;
+ }
+ .video-stats{
+    font-size: 14px;
+    color: rgb(94,94,94);
+    margin-top: 5px;
+ }
+ .check{
+    font-size: 14px;
+    color: rgb(94, 94, 94);
+    margin-top: 19px;
+    margin-bottom: 18px;
+ }
+ .para{
+    font-size: 14px;
+    color: rgb(94,94,94);
+    width: 280px;
+    line-height: 20px;
+ }
+ .red{
+    background-color: rgb(237, 61, 61);
+    font-size: 14px;
+    color: rgb(94,94,94);
+    width: 620px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 104px;
+    margin-bottom: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: rgb(236, 232, 232);
+ }
+ .special:hover{
+    text-decoration: underline;
+    transition: 1s;
+    cursor: pointer;
+ }

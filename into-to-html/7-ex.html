@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>l7 exercise</title>
+         <style>
+            img{
+                width: 200px;
+                margin-left: 10px;
+            }
+            .st{
+                border-radius: 15px;
+            }
+            .nd{
+                height: 200px;
+            }
+            .rd{
+                border-radius: 100px;
+            }
+            .simple{
+                border-radius: 4px;
+                border-width: 1px;
+                border-color: rgb(164, 162, 162);
+                padding-left: 9px;
+                padding-top: 9px;
+                padding-bottom: 9px;
+                width: 150px;
+                margin-right: 10px;
+            }
+            .long{
+                border-radius: 20px;
+                border-width: 1px;
+                border-color: rgb(164, 162, 162);
+                padding-left: 9px;
+                padding-top: 9px;
+                padding-bottom: 9px;
+                width: 300px;
+                margin-right: 10px;
+                border: none;
+                box-shadow: 0px 0px 15px  rgb(143, 128, 128);
+            }
+            .email{
+                font-size: 14px;
+                color: rgb(99, 99, 99);
+                margin-bottom: 2px;
+            }
+            .blank{
+                border-radius: 4px;
+                width: 300px;
+                height: 25px;
+                border-color: rgb(187, 183, 183);
+                border:solid 1px rgb(95, 93, 93);
+            }
+            .line{
+                font-size: 14px;
+                color: rgb(101, 100, 100);
+            }
+            .agree{
+                font-size: 14px;
+                border-radius: 20px;
+                padding-left: 30px;
+                padding-right: 30px;
+                width: 300px;
+                height: 40px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                border: none;
+                color: white;
+                outline: none;
+                background-color: rgb(44, 146, 240) ;
+            }
+            .tweet-box{
+                width: 430px;
+                height: 62px;
+                display: flex;
+                align-items: center;
+                padding: 0 10px;
+               
+                background-color: white;
+                border: 1px solid #e1e8ed;
+            }
+            .profile-img{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                margin-right: 10px;
+                object-fit: cover;
+            }
+            .tweet-input{
+                font-size: 18px;
+                color: #333;
+                border: 0px !important;
+                border-color:#e1e8ed
+                
+            }
+            .tweet{ 
+                border-radius: 20px;
+                background-color: rgb(44, 146, 240);
+                color: white;
+                width: 80px;
+                height: 30px;
+                margin-left: 120px;
+                border: none;
+                font-size: 14px;
+                font-weight: bold;
+                position: relative;
+                
+
+                
+            }
+         </style>
+    </head>
+    <body>
+        <img class="st" src="room design.jpeg">
+        <img class="nd" src="room design.jpeg">
+        <img class="rd" src="room design.jpeg"><br>
+        <input class="simple" type="text" placeholder="Search">
+        <input class="long" type="text" placeholder="Search Google ot type a URL">
+        <br><br>
+        <p class="email">Email</p>
+        <input class="blank" type="tex" ><br>
+        <p class="line">By clicking Agree & Join, you agree to the Privacy Policy</p>
+        <button class="agree">Agree & Join</button>
+        <br><br>
+        <div class="tweet-box">
+          <img src="room design.jpeg" alt="profile" class="profile-img"/>  
+          <input type="text" placeholder="What's happening?" class="tweet-imput">
+          <button class="tweet">Tweet</button>
+        </div>
+    </body>
+</html>
